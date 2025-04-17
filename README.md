@@ -15,8 +15,9 @@ Each sheet has proper headers
 No merged cells
 
 Clean data (no extra blank rows)
------
+
 2. merging
+   -----------
 Go to Data > Get & Transform > From Table/Range
 
 Load Orders as a query.
@@ -32,8 +33,9 @@ Join on customer_id
 Expand to include customer name, city, etc.
 
 Close & Load to a new sheet.
-------
+
 for example____
+--------
 Step 1: Load Both Tables into Power Query
 Go to Orders Sheet → Click inside your table.
 
@@ -65,4 +67,6 @@ Go to Home tab → Click Merge Queries → Choose Orders as the first table.
 Select the customerid column in both queries.
 
 Choose Join Kind: use Inner Join (only matching rows) or Left Join (all orders, with customer data if matched).
-------
+
+Merge first_name and last_name into full_name
+---
