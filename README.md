@@ -10,14 +10,15 @@
  The tasks include analyzing employee working hours for compliance with the company's standards and analyzing sales data to gain insights into customer behavior and identify top-performing products.
 ________________________________________
 #### Data Understanding
-●	Employee Working Hours Data:- Workers Timing Dataset
-○	Dataset Name: Workers Timing Dataset
- The dataset includes:
+Dataset Name: 
+- Workers Timing Dataset
 
-■	Time of entry
-■	Time of exit
+The dataset includes:
+■Time of entry
+■Time of exit
+  
 ●	Orders Data:
-○	Dataset Name: Orders Dataset
+
 Dataset Link:- Orders Dataset
  This dataset includes:
 ■	date: Date the order was placed
@@ -26,8 +27,8 @@ Dataset Link:- Orders Dataset
 ■	beverage: The type of beverage ordered
 ■	cost_price: The cost price of the beverage
 ■	selling_price: The price at which the beverage was sold
+
 ●	Customers Data:
-○	Dataset Name:Customer Dataset
 Dataset Link :-  Customer Dataset 
  This dataset includes:
 
@@ -61,7 +62,7 @@ Clean data (no extra blank rows)
 
 2. merging
    -----------
-Go to Data > Get & Transform > From Table/Range
+Go to power query
 
 Load Orders as a query.
 
@@ -75,7 +76,7 @@ Join on customer_id
 
 Expand to include customer name, city, etc.
 
-Close & Load to a new sheet.
+Close & Load to a same sheet order.
 
 for example____
 --------
