@@ -107,6 +107,25 @@ Select the new column → Go to Transform tab → Click Data Type → Select Who
 ✨ Optional: Rename the cleaned column as customerid (to match the Orders sheet).
 🔁 Step 3: Join the Two Queries
 Go to Home tab → Click Merge Queries → Choose Orders as the first table.
+●	In the Employee Working table
+
+-Convert Working Time to Decimal:
+-Convert the benchmark working time (8 hours and 30 minutes) into a decimal format for easy comparison (8.5 hours).
+
+○	Calculate Actual Working Hours:
+ Convert minutes worked into a fraction of an hour (e.g., 30 minutes = 0.5 hours) and sum them with the whole hours worked.
+ 
+○	Determine Compliance:
+ Compare actual working hours with the benchmark (8.5 hours), allowing a tolerance of -6 minutes.
+ 
+○	Hours and Minutes Worked Calculation:
+ Break down the total hours worked into whole hours and minutes for clear visualization.
+ 
+○	Deviation in Minutes:
+ For non-compliant entries, calculate the deviation in minutes compared to the benchmark time.
+ 
+○	Non-Compliance Message:
+For non-compliant cases, generate a message with the specific date, hours worked, and deviation.
 
 Select the customerid column in both queries.
 
@@ -125,7 +144,7 @@ In Power Query:
 
 Add Column → Custom Column → Profit = [selling_price] - [cost_price]
 
-2️⃣ Top 5 Customers by Sales
+2️⃣ from merge table Top 5 Customers by Sales
 Goal: Aggregate total sales (selling_price) by customer_id
 Steps:
 
@@ -141,7 +160,7 @@ Filter: Top 5 (or just pick top 5 after sorting)
 
 ✅ You can add customer names from merged Customers data.
 
-3️⃣ Top Cities by Sales
+3️⃣ from merge table Top Cities by Sales
 Goal: Sum of sales grouped by city
 Steps:
 
