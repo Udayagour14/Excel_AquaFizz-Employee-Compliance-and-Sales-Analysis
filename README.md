@@ -2,8 +2,10 @@
 ####  Project Overview
 ●	Objective:
  The main goal of this project is to analyze employee working hours and customer order data to ensure compliance with AquaFizz’s policies and optimize sales. The analysis involves examining data on working hours for compliance and generating business insights from customer and sales data.
+ 
 ●	Company Background:
  AquaFizz is a newly established beverage startup offering health-focused sparkling water beverages. The company aims to provide refreshing, nutrient-enhanced drinks while promoting overall wellness.
+ 
 ●	Business Task:
  The tasks include analyzing employee working hours for compliance with the company's standards and analyzing sales data to gain insights into customer behavior and identify top-performing products.
 ________________________________________
